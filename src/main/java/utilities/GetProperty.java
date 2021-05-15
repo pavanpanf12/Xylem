@@ -4,7 +4,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-
+/*
+ * this class is use to read the property file 
+ */
 public class GetProperty {
 	public String userDir = System.getProperty("user.dir");
 	FileInputStream fis = null;

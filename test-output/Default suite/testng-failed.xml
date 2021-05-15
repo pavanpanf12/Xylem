@@ -5,7 +5,7 @@
     <classes>
       <class name="testRunners.TestRunner_TestCase01">
         <methods>
-          <include name="noOfPumps_Validation"/>
+          <include name="languageList_Validation"/>
           <include name="tearDown"/>
           <include name="preCondition_Login"/>
           <include name="setSystemProperty"/>

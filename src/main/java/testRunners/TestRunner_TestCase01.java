@@ -7,7 +7,7 @@ import utilities.initialization;
 
 public class TestRunner_TestCase01 extends initialization {
 	
-	@Test(enabled = false)
+	@Test // (enabled = false)
 	public void login_Validation() {
 		/*
 		 * 1. Login · 
@@ -21,7 +21,7 @@ public class TestRunner_TestCase01 extends initialization {
 		hp.quickSearch_Validation(driver);
 	}
 
-	@Test
+	@Test//(enabled = false)
 	public void noOfPumps_Validation() {
 		/*
 		 * 2. Search for N 3000 from drop down and assert the number of products.
@@ -33,7 +33,7 @@ public class TestRunner_TestCase01 extends initialization {
 		hp.quickSearch_Validation(driver);
 	}
 
-	@Test(enabled = false)
+	@Test
 	public void languageList_Validation() {
 		/*
 		 * 3. Language list · If you click on the image next to the units in the top
